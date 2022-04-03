@@ -10,7 +10,7 @@ public class Controller{
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         while(true){
-            
+                System.out.println();
                 View.display_tasks(TaskList.get_tasks());
                 View.display_actions();
 
@@ -55,7 +55,6 @@ public class Controller{
 
                     if(TaskList.get_tasks().size() == 0){
                         System.out.println("No current tasks to be deleted. Congrats!");
-                        System.out.println();
                         break;
                     }
 
