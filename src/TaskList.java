@@ -27,6 +27,7 @@ public class TaskList {
                     current++;
                 }
             } 
+            current = p + 1;
             i++;
         }
         return unused;
